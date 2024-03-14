@@ -1,11 +1,9 @@
 "use client";
 import { RAYDIUM_URL, headerLinks } from "@/data/config";
-import { usePathname, useParams, useSearchParams } from "next/navigation";
+import { usePathname } from "next/navigation";
 
 const Header = () => {
   const pathname = usePathname();
-  const params = usePathname();
-  const search = useSearchParams();
 
   return (
     <header>

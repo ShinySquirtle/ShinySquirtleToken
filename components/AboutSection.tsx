@@ -20,7 +20,7 @@ const AboutSection = () => {
               cryptocurrency for purchasing <strong>water bottles</strong> and
               paying <strong>water bills</strong>, all while making a
               significant contribution to the conservation of{" "}
-              <storg>sea turtles</storg>.
+              <strong>sea turtles</strong>.
               <br />
               <br />
               <br /> 💰Fill your bags
