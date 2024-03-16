@@ -17,7 +17,7 @@ export default function RootLayout({
     <html lang="en" data-theme="aqua">
       <body className="min-h-screen h-screen flex flex-col font-grandstander">
         <Header />
-        <div className="grow">{children}</div>
+        {children}
       </body>
     </html>
   );
