@@ -21,9 +21,9 @@ const TokenomicsSection = () => {
       {showAlert && <Toast title="Token address copied" />}
       <section id="tokenomics">
         <SectionTitle title="Tokenomics" />
-        <div className="grid grid-flow-col gap-8 items-center justify-center ">
+        <div className="grid grid-flow-row md:grid-flow-col gap-8 items-center justify-center ">
           <img
-            className="object-cover rounded-xl h-[386px] outline outline-accent"
+            className="object-cover rounded-xl h-[286px] outline outline-accent"
             src="images/squirtle-eating.gif"
           ></img>
           <div className="stats stats-vertical shadow outline outline-accent">
@@ -39,7 +39,7 @@ const TokenomicsSection = () => {
         </div>
         <Card className="mt-4">
           <span className="card-body">
-            <span className="flex items-center justify-center gap-4 font-extrabold text-2xl">
+            <span className="flex  flex-wrap items-center justify-center gap-4 font-extrabold text-2xl">
               Token Address
               <button
                 className="btn  btn-outline"
@@ -57,12 +57,9 @@ const TokenomicsSection = () => {
             </span>
           </span>
         </Card>
-        <div className="relative mt-8">
-          <img
-            className="absolute w-3/5 left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2"
-            src="/images/logo.png"
-          />
-          <PieChart
+        {/* <div className="relative mt-8"> */}
+
+        {/* <PieChart
             data={TOKENOMICS_DATA}
             animate
             rounded
@@ -73,8 +70,8 @@ const TokenomicsSection = () => {
               fill: TOKENOMICS_DATA[index].color,
               fontSize: "5px",
             })}
-          />
-        </div>
+          /> */}
+        {/* </div> */}
       </section>
     </>
   );

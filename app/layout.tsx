@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/Header";
+import { TOKEN_ADDRESS, TOKEN_NAME } from "@/data/config";
 
 export const metadata: Metadata = {
-  title: "Shiny Squirtle",
-  description: "The water token",
+  title: TOKEN_NAME,
+  description: TOKEN_ADDRESS,
 };
 
 export default function RootLayout({
@@ -14,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" data-theme="aqua">
-      <body className="bg-transparent min-h-screen h-screen flex flex-col font-grandstander">
+      <body className="min-h-screen h-screen flex flex-col font-grandstander">
         <Header />
         <div className="grow">{children}</div>
       </body>

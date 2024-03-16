@@ -7,8 +7,9 @@ const AboutSection = () => {
     <section id="about">
       <SectionTitle title={`About ${TOKEN_NAME}`} />
       <Card className="max-w-[600px]">
-        <span className="card-body">
-          <p>
+        <span className="card-body flex flex-row">
+          <img className="object-contain" src="/images/logo.png" />
+          <span>
             Welcome to <strong className="text-primary">Shiny Squirtle</strong>,
             a revolutionary token built on the Solana blockchain.
             <br />
@@ -21,7 +22,7 @@ const AboutSection = () => {
             <br /> 💰Fill your bags
             <br /> 🔥 100x in the next days
             <br /> 🚀 Be on of the Shiny Squirtle early investors
-          </p>
+          </span>
         </span>
       </Card>
     </section>
