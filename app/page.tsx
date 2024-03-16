@@ -1,6 +1,6 @@
 import HowToBuySection from "@/components/HowToBuySection";
 import RoadMapSection from "@/components/RoadMapSection";
-import ExchangesList from "@/components/ExchangesList";
+import ExchangesList from "@/components/ComingSoonSection";
 import TokenomicsSection from "@/components/TokenomicsSection";
 import Disclaimer from "@/components/Disclaimer";
 import AboutSection from "@/components/AboutSection";
@@ -13,10 +13,10 @@ export default function Home() {
         <TokenomicsSection />
         <AboutSection />
         <HowToBuySection />
-        <ExchangesList />
         <RoadMapSection />
+        <ExchangesList />
         <SocialsSection />
-        <Disclaimer />
+        {/* <Disclaimer /> */}
       </div>
     </main>
   );

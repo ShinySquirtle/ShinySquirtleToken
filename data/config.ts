@@ -1,7 +1,7 @@
 export const headerLinks = [
-  { path: "/", text: "Home" },
-  { path: `#about`, text: "About" },
   { path: `#tokenomics`, text: "Tokenomics" },
+  { path: `#about`, text: "About" },
+  { path: `#buy`, text: "Buy" },
   { path: `#road-map`, text: "Road Map" },
 ];
 
@@ -49,5 +49,9 @@ export const EXCHANGES_LIST  = [
 ];
 
 export const TWITTER_URL = "https://twitter.com/SquirtleT0ken"
+
+export const TOKEN_SYMBOL = "$SQUIRTLE"
+export const TOKEN_NAME = "Shiny Squirtle"
+export const TOTAL_SUPPLY = "69B"
 
 

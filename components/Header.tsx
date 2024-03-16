@@ -14,7 +14,7 @@ const Header = () => {
             let isActive = pathname === linkConfig.path;
 
             return (
-              <li className="uppercase" key={linkConfig.path}>
+              <li key={linkConfig.path}>
                 <a
                   href={linkConfig.path}
                   className={`font-bold hover:text-primary`}
