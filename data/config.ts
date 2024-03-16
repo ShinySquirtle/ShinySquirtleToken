@@ -54,4 +54,6 @@ export const TOKEN_SYMBOL = "$SQUIRTLE"
 export const TOKEN_NAME = "Shiny Squirtle"
 export const TOTAL_SUPPLY = "69B"
 
+export const BIRDEYE_URL = "https://birdeye.so/token/9zn52BFG4uDKt7rL68eP7qDUE9WBEbarxfcA339LGXV5?chain=solana"
+
 

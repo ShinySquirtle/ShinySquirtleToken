@@ -1,5 +1,5 @@
 "use client";
-import { RAYDIUM_URL, headerLinks } from "@/data/config";
+import { BIRDEYE_URL, RAYDIUM_URL, headerLinks } from "@/data/config";
 import { usePathname } from "next/navigation";
 
 const Header = () => {
@@ -11,8 +11,6 @@ const Header = () => {
         <ul className="p-2 w-full flex flex-wrap flex-col md:flex-row gap-6 justify-center items-center mr-1">
           <img className="h-[50px]" src="/images/logo.png" />
           {headerLinks.map((linkConfig, idx) => {
-            let isActive = pathname === linkConfig.path;
-
             return (
               <li key={linkConfig.path}>
                 <a
@@ -28,9 +26,17 @@ const Header = () => {
             href={RAYDIUM_URL}
             target="_blank"
             rel="noreferrer"
-            className="btn btn-outline btn-primary"
+            className="btn btn-outline "
           >
-            BUY ON <img className="h-[30px]" src="/images/raydium.png" />
+            BUY NOW
+          </a>
+          <a
+            href={BIRDEYE_URL}
+            target="_blank"
+            rel="noreferrer"
+            className="btn btn-primary btn-outline "
+          >
+            CHARTS
           </a>
         </ul>
       </nav>
