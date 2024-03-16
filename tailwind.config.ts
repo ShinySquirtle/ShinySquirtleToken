@@ -8,6 +8,9 @@ const config: Config = {
     "./node_modules/tailwind-datepicker-react/dist/**/*.js", 
   ],
   theme: {
+    fontFamily: {
+      grandstander: ["Grandstander", "sans-serif"],
+    },
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

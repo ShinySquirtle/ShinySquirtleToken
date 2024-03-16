@@ -7,3 +7,8 @@
   padding: 0;
   scroll-behavior: smooth;
 }
+
+@font-face {
+  font-family: "Grandstander";
+  src: url("../public/fonts/Grandstander/Grandstander-VariableFont_wght.ttf");
+}

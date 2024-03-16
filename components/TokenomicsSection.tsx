@@ -23,10 +23,10 @@ const TokenomicsSection = () => {
         <SectionTitle title="Tokenomics" />
         <div className="grid grid-flow-col gap-8 items-center justify-center ">
           <img
-            className="object-cover rounded-xl h-full"
+            className="object-cover rounded-xl h-[386px] outline outline-accent"
             src="images/squirtle-eating.gif"
           ></img>
-          <div className="stats stats-vertical shadow">
+          <div className="stats stats-vertical shadow outline outline-accent">
             {[
               { title: "Total Supply", value: TOTAL_SUPPLY },
               { title: "Token Name", value: TOKEN_NAME },
@@ -37,7 +37,7 @@ const TokenomicsSection = () => {
             ))}
           </div>
         </div>
-        <Card>
+        <Card className="mt-4">
           <span className="card-body">
             <span className="flex items-center justify-center gap-4 font-extrabold text-2xl">
               Token Address

@@ -5,8 +5,8 @@ import { TOKEN_NAME } from "@/data/config";
 const AboutSection = () => {
   return (
     <section id="about">
-      <Card>
-        <SectionTitle title={`About ${TOKEN_NAME}`} />
+      <SectionTitle title={`About ${TOKEN_NAME}`} />
+      <Card className="max-w-[600px]">
         <span className="card-body">
           <p>
             Welcome to <strong className="text-primary">Shiny Squirtle</strong>,

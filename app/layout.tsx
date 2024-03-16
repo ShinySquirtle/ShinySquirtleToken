@@ -14,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" data-theme="aqua">
-      <body className="bg-transparent min-h-screen h-screen flex flex-col">
+      <body className="bg-transparent min-h-screen h-screen flex flex-col font-grandstander">
         <Header />
         <div className="grow">{children}</div>
       </body>
